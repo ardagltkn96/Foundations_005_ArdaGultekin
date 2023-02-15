@@ -16,4 +16,6 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(5);
         messagePanel.SetActive(false);
     }
+
+
 }
