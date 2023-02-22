@@ -7,6 +7,7 @@ public class WinCondition : MonoBehaviour
 {
     public GameObject player;
     public GameObject winScreen;
+    //public GameObject particleEffect;
     private bool isGameComplete;
 
     private void Start()
@@ -25,6 +26,7 @@ public class WinCondition : MonoBehaviour
     private void gameWon()
     {
         winScreen.SetActive(true);
+        //particleEffect.SetActive(true);
         isGameComplete = true;
     }
 
