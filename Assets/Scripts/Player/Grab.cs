@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,7 @@ public class Grab : MonoBehaviour
     [SerializeField] private float _grabRange = 2f;
     [SerializeField] private float _throwForce = 20f;
     [SerializeField] private float _snapSpeed = 40f;
-
+    
     private Rigidbody _grabbedObject;
 
     private bool _grabPressed = false;
@@ -20,6 +21,7 @@ public class Grab : MonoBehaviour
         if (_grabbedObject)
         {
             _grabbedObject.velocity = (_holdPosition.position - _grabbedObject.transform.position) * _snapSpeed;
+            _grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
         }
     }
 
@@ -60,8 +62,12 @@ public class Grab : MonoBehaviour
     {
         if (!_grabbedObject) return;
         
+        
         _grabbedObject.AddForce(_cameraPosition.forward *_throwForce, ForceMode.Impulse);
         
         DropGrabbedObject();
+
     }
+
+   
 }
