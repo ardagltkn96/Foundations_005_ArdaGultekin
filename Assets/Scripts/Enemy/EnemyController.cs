@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,18 +6,23 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-    enum EnemyState
+    public enum EnemyState
     {
         Patrol = 0,
-        Investigate = 1
+        Investigate = 1,
+        GrabFriend = 2,
+        InvestigateTogether = 3
     }
     
     [SerializeField]private NavMeshAgent _agent;
-    [SerializeField] private float _threshold = 0.5f;
+    public float _threshold = 0.5f;
     [SerializeField] private float _waitTime = 2f;
     [SerializeField] private PatrolRoute _patrolRoute;
     [SerializeField] private FieldOfView _fov;
-    [SerializeField] private EnemyState _state = EnemyState.Patrol;
+    public EnemyState _state = EnemyState.Patrol;
+    [SerializeField] private Transform _friendPoint;
+    // [SerializeField] private NavMeshAgent _friendAgent;
+    // [SerializeField] private GameObject _friend;
 
     [SerializeField] private Transform[] points;
 
@@ -25,6 +31,7 @@ public class EnemyController : MonoBehaviour
     private int _routeIndex = 0;
     private bool _forwardsAlongPath = true;
     private Vector3 _investigationPoint;
+    private Vector3 _investigationTogetherPoint;
     private float _waitTimer = 0f;
 
     // Start is called before the first frame update
@@ -40,15 +47,40 @@ public class EnemyController : MonoBehaviour
         {
             InvestigatePoint(_fov.visibleObjects[0].position);
         }
-        if (_state == EnemyState.Patrol)
+
+        switch (_state)
         {
-            UpdatePatrol();
+            case EnemyState.Patrol:
+                UpdatePatrol();
+                break;
+            case EnemyState.Investigate:
+                UpdateInvestigate();
+                break;
+            case EnemyState.GrabFriend:
+                GetFriendFromPatrolPoint();
+                break;
+            case EnemyState.InvestigateTogether:
+                UpdateInvestigateTogether();
+                break;
         }
-        else if (_state == EnemyState.Investigate)
+
+    }
+
+    private void GetFriendFromPatrolPoint()
+    {
+        if (_friendPoint != null)
         {
-            UpdateInvestigate();
+            _agent.SetDestination(_friendPoint.position);
+            if (Vector3.Distance(_agent.transform.position, _friendPoint.position) <= _threshold)
+            {
+               
+                _state = EnemyState.InvestigateTogether;
+                _friendPoint.GetComponent<EnemyController>()._state = EnemyState.InvestigateTogether;
+              
+              
+            }
+            //Debug.Break();
         }
-        
     }
 
     public void InvestigatePoint(Vector3 investigationPoint)
@@ -56,11 +88,34 @@ public class EnemyController : MonoBehaviour
         _state = EnemyState.Investigate;
         _investigationPoint = investigationPoint;
         _agent.SetDestination(_investigationPoint);
+    } 
+    public void InvestigatePointTogether(Vector3 investigationPoint)
+    {
+        _state = EnemyState.GrabFriend;
+        _investigationPoint = investigationPoint;
+        //_agent.SetDestination(_friendPoint.position);
     }
+
+    // private bool checkRemainingPath()
+    // {
+    //     if (Vector3.Distance(_agent.destination, _agent.transform.position) <= _threshold)
+    //     {
+    //         //Reached Destination.
+    //         if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
+    //         {
+    //             return true;
+    //         }
+    //     }
+    //
+    //     return false;
+    // }
+    
+    
 
     private void UpdateInvestigate()
     {
-       //Debug.Log("Investigating");
+        //Debug.Log(gameObject.name + "POS: " + gameObject.transform.position);
+        //Debug.Log("Investigating");
        if (Vector3.Distance(transform.position, _investigationPoint) < _threshold)
        {
            _waitTimer += Time.deltaTime;
@@ -69,6 +124,24 @@ public class EnemyController : MonoBehaviour
                ReturnToPatrol();
            }
        }
+    } 
+    private void UpdateInvestigateTogether()
+    {
+        _agent.SetDestination(_investigationPoint);
+        _friendPoint.GetComponent<EnemyController>()._agent.SetDestination(_investigationPoint);
+        _state = EnemyState.Investigate;
+        //_friendPoint.GetComponent<EnemyController>()._state = EnemyState.Investigate;
+        //_friendPoint.GetComponent<EnemyController>()._state = EnemyState.Investigate;
+
+        // if (checkRemainingPath())
+        // {
+        //     _agent.SetDestination(_investigationPoint);
+        //     _state = EnemyState.Investigate;
+        //     
+        //     // _friendAgent.SetDestination(_investigationPoint);
+        //     // _friend.GetComponent<EnemyController>()._state = _state;
+        //
+        // }
     }
 
     private void ReturnToPatrol()
