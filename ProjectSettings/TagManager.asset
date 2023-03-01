@@ -10,6 +10,7 @@ TagManager:
   - Stickable
   - Mine
   - Enemy
+  - Box
   layers:
   - Default
   - TransparentFX

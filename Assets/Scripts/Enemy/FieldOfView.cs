@@ -19,6 +19,8 @@ public class FieldOfView : MonoBehaviour
     [SerializeField] private Creature _creature;
 
     [SerializeField] private LayerMask _blockingLayers;
+
+    private Grab grabManager;
     
     // Start is called before the first frame update
     void Start()
@@ -55,6 +57,16 @@ public class FieldOfView : MonoBehaviour
                 Debug.DrawLine(headPos, targetHeadPos, Color.green);
                 
                 Debug.Log(target);
+                //If player is inside the box, dont add player to the visible objects list
+                if (target.GetComponent<Grab>() != null)
+                {
+                    grabManager = target.GetComponent<Grab>();
+                    if (grabManager.isHiding)
+                    {
+                        Debug.Log("PLAYER IS HIDING, CANNOT ADD TO LIST");
+                        continue;
+                    }
+                }
                 
                 visibleObjects.Add(target.transform);
             }
