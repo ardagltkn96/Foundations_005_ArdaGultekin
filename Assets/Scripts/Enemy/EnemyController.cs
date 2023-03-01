@@ -33,6 +33,26 @@ public class EnemyController : MonoBehaviour
     private Vector3 _investigationPoint;
     private Vector3 _investigationTogetherPoint;
     private float _waitTimer = 0f;
+    public List<Collider> RagdollParts = new List<Collider>();
+
+    // private void Awake()
+    // {
+    //     SetRagdollParts();
+    // }
+    //
+    // private void SetRagdollParts()
+    // {
+    //     Collider[] colliders = this.gameObject.GetComponentsInChildren<Collider>();
+    //
+    //     foreach (Collider c in colliders)
+    //     {
+    //         if (c.gameObject != this.gameObject)
+    //         {
+    //             c.isTrigger = true;
+    //             RagdollParts.Add(c);
+    //         }
+    //     }
+    // }
 
     // Start is called before the first frame update
     void Start()

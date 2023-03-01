@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd5a210-12c7-416e-956e-08ae1d1c722e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/box_00_material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/box_00_material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/box_00.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/box_00.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/box.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/box/box_00_albedo_1024.tga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/box/box_00_albedo_1024.tga.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/box/box_00_roughness_1024.tga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/box/box_00_roughness_1024.tga.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/RagdollController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/RagdollController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/XRB01_Anim.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/XRB01_Anim.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Robot_Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Robot_Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Grab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Grab.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProximityMine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProximityMine.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +119,7 @@
       <workItem from="1677622196712" duration="7766000" />
       <workItem from="1677647637631" duration="12921000" />
       <workItem from="1677663638974" duration="5667000" />
+      <workItem from="1677675317550" duration="5161000" />
     </task>
     <servers />
   </component>

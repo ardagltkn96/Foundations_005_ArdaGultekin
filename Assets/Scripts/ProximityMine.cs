@@ -15,6 +15,7 @@ public class ProximityMine : MonoBehaviour
     [SerializeField] private float explosionRange = 5f;
     
     private string StuckObjectTag = "Stickable";
+   
     
     private void OnCollisionEnter(Collision other)
     {
@@ -41,7 +42,8 @@ public class ProximityMine : MonoBehaviour
                 GameObject particle = Instantiate(explosiveParticle, transform.position + explosionOffset, Quaternion.identity);
                 Destroy(particle, 2);
                 gameObject.SetActive(false);
-                hit.transform.gameObject.SetActive(false);
+                hit.transform.GetComponent<RagdollController>().ActivateRagdoll();
+                //hit.transform.gameObject.SetActive(false);
             }
 
         }
