@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class EnemyController : MonoBehaviour
 {
@@ -15,17 +16,21 @@ public class EnemyController : MonoBehaviour
     }
     
     [SerializeField]private NavMeshAgent _agent;
-    public float _threshold = 0.5f;
     [SerializeField] private float _waitTime = 2f;
     [SerializeField] private PatrolRoute _patrolRoute;
     [SerializeField] private FieldOfView _fov;
-    public EnemyState _state = EnemyState.Patrol;
     [SerializeField] private Transform _friendPoint;
-    // [SerializeField] private NavMeshAgent _friendAgent;
-    // [SerializeField] private GameObject _friend;
-
     [SerializeField] private Transform[] points;
+    
+    public float _threshold = 0.5f;
+    public EnemyState _state = EnemyState.Patrol;
+    public Animator _animator;
+    public List<Collider> RagdollParts = new List<Collider>();
 
+    public UnityEvent<Transform> onPlayerFound;
+    public UnityEvent onInvestigate;
+    public UnityEvent onReturnToPatrol;
+  
     private Transform _currentPoint;
     private bool _moving = false;
     private int _routeIndex = 0;
@@ -33,28 +38,7 @@ public class EnemyController : MonoBehaviour
     private Vector3 _investigationPoint;
     private Vector3 _investigationTogetherPoint;
     private float _waitTimer = 0f;
-    public List<Collider> RagdollParts = new List<Collider>();
-
-    // private void Awake()
-    // {
-    //     SetRagdollParts();
-    // }
-    //
-    // private void SetRagdollParts()
-    // {
-    //     Collider[] colliders = this.gameObject.GetComponentsInChildren<Collider>();
-    //
-    //     foreach (Collider c in colliders)
-    //     {
-    //         if (c.gameObject != this.gameObject)
-    //         {
-    //             c.isTrigger = true;
-    //             RagdollParts.Add(c);
-    //         }
-    //     }
-    // }
-
-    // Start is called before the first frame update
+    private bool _playerFound = false;
     void Start()
     {
         _currentPoint = _patrolRoute.route[_routeIndex];
@@ -63,9 +47,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _animator.SetFloat("Speed", _agent.velocity.magnitude);
+
         if (_fov.visibleObjects.Count > 0)
         {
-            InvestigatePoint(_fov.visibleObjects[0].position);
+            PlayerFound(_fov.visibleObjects[0].position);
         }
 
         switch (_state)
@@ -105,33 +91,37 @@ public class EnemyController : MonoBehaviour
 
     public void InvestigatePoint(Vector3 investigationPoint)
     {
+        SetInvestigationPoint(investigationPoint);
+
+        onInvestigate.Invoke();
+    }
+
+    private void SetInvestigationPoint(Vector3 investigationPoint)
+    {
         _state = EnemyState.Investigate;
         _investigationPoint = investigationPoint;
         _agent.SetDestination(_investigationPoint);
-    } 
-    public void InvestigatePointTogether(Vector3 investigationPoint)
-    {
-        _state = EnemyState.GrabFriend;
-        _investigationPoint = investigationPoint;
-        //_agent.SetDestination(_friendPoint.position);
     }
 
-    // private bool checkRemainingPath()
-    // {
-    //     if (Vector3.Distance(_agent.destination, _agent.transform.position) <= _threshold)
-    //     {
-    //         //Reached Destination.
-    //         if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
-    //         {
-    //             return true;
-    //         }
-    //     }
-    //
-    //     return false;
-    // }
-    
-    
+    public void InvestigatePointTogether(Vector3 investigationPoint)
+    {
+        onInvestigate.Invoke();
+        _state = EnemyState.GrabFriend;
+        _investigationPoint = investigationPoint;
+    }
 
+    private void PlayerFound(Vector3 investigationPoint)
+    {
+        if (_playerFound) return;
+        
+        SetInvestigationPoint(investigationPoint);
+        
+        onPlayerFound.Invoke(_fov.creature.head);
+
+        _playerFound = true;
+
+    }
+    
     private void UpdateInvestigate()
     {
         //Debug.Log(gameObject.name + "POS: " + gameObject.transform.position);
@@ -169,6 +159,8 @@ public class EnemyController : MonoBehaviour
         _state = EnemyState.Patrol;
         _waitTimer = 0;
         _moving = false;
+        
+        onReturnToPatrol.Invoke();
     }
 
     private void UpdatePatrol()

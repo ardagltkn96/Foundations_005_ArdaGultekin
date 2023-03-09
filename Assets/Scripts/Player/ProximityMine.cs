@@ -39,6 +39,7 @@ public class ProximityMine : MonoBehaviour
         {
             if (hit.transform.gameObject.CompareTag("Enemy"))
             {
+                hit.transform.GetComponent<EnemyController>()._animator.enabled = false;
                 GameObject particle = Instantiate(explosiveParticle, transform.position + explosionOffset, Quaternion.identity);
                 Destroy(particle, 2);
                 gameObject.SetActive(false);
