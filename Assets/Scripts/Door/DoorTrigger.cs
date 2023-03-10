@@ -5,23 +5,36 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
-    [SerializeField] private GameObject door;
+    // [SerializeField] private GameObject door;
+    //
+    // private void OnTriggerEnter(Collider other)
+    // {
+    //     DoorInteractor doorInter = other.GetComponent<DoorInteractor>();
+    //     if (doorInter)
+    //     {
+    //         door.SetActive(false);
+    //     }
+    // }
+    //
+    // private void OnTriggerExit(Collider other)
+    // {
+    //     DoorInteractor doorInter = other.GetComponent<DoorInteractor>();
+    //     if (doorInter)
+    //     {
+    //         door.SetActive(true);
+    //     }
+    // }
+    
+     [SerializeField] private GameObject door;
+    [SerializeField] private KeyCard.KeyType _keyType;
 
-    private void OnTriggerEnter(Collider other)
+    public KeyCard.KeyType GetKeytype()
     {
-        DoorInteractor doorInter = other.GetComponent<DoorInteractor>();
-        if (doorInter)
-        {
-            door.SetActive(false);
-        }
+        return _keyType;
     }
 
-    private void OnTriggerExit(Collider other)
+    public void OpenDoor()
     {
-        DoorInteractor doorInter = other.GetComponent<DoorInteractor>();
-        if (doorInter)
-        {
-            door.SetActive(true);
-        }
+        door.SetActive(false);
     }
 }

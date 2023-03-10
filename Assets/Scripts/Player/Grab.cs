@@ -16,7 +16,7 @@ public class Grab : MonoBehaviour
 
     private bool _grabPressed = false;
     public bool isHiding = false;
-
+  
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -61,6 +61,7 @@ public class Grab : MonoBehaviour
                     _grabbedObject.transform.parent = _holdPosition;
                     isHiding = true;
                 }
+                
                 if (!hit.transform.gameObject.CompareTag("Grabbable")) return;
 
                 _grabbedObject = hit.transform.GetComponent<Rigidbody>();
