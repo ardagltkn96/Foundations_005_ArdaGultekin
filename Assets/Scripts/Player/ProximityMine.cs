@@ -13,6 +13,10 @@ public class ProximityMine : MonoBehaviour
     [SerializeField] private Transform rayCastPos;
 
     [SerializeField] private float explosionRange = 5f;
+
+    [SerializeField] private GameObject _explodedRobot;
+    
+    [SerializeField] private Transform _explodedPartsArea;
     
     private string StuckObjectTag = "Stickable";
    
@@ -43,8 +47,10 @@ public class ProximityMine : MonoBehaviour
                 GameObject particle = Instantiate(explosiveParticle, transform.position + explosionOffset, Quaternion.identity);
                 Destroy(particle, 2);
                 gameObject.SetActive(false);
-                hit.transform.GetComponent<RagdollController>().ActivateRagdoll();
-                //hit.transform.gameObject.SetActive(false);
+                Debug.Log("EXPLODED: " + hit.transform.name);
+                Instantiate(_explodedRobot, _explodedPartsArea.position, Quaternion.identity);
+                Destroy(hit.transform.gameObject);
+                //hit.transform.GetComponent<RagdollController>().ActivateRagdoll();
             }
 
         }
