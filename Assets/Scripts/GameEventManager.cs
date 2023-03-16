@@ -36,7 +36,7 @@ public class GameEventManager : MonoBehaviour
         }
 
         GameObject player = GameObject.FindWithTag("Player");
-        Debug.Log(("PLAYER NAME: " + player.name));
+        //Debug.Log(("PLAYER NAME: " + player.name));
         if (player)
         {
             _playerInput = player.GetComponent<PlayerInput>();
