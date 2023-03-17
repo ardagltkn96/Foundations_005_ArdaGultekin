@@ -5,36 +5,46 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
-    // [SerializeField] private GameObject door;
-    //
-    // private void OnTriggerEnter(Collider other)
-    // {
-    //     DoorInteractor doorInter = other.GetComponent<DoorInteractor>();
-    //     if (doorInter)
-    //     {
-    //         door.SetActive(false);
-    //     }
-    // }
-    //
-    // private void OnTriggerExit(Collider other)
-    // {
-    //     DoorInteractor doorInter = other.GetComponent<DoorInteractor>();
-    //     if (doorInter)
-    //     {
-    //         door.SetActive(true);
-    //     }
-    // }
+    [SerializeField] private GameObject door;
     
-     [SerializeField] private GameObject door;
-    [SerializeField] private KeyCard.KeyType _keyType;
-
-    public KeyCard.KeyType GetKeytype()
+    private void OnTriggerEnter(Collider other)
     {
-        return _keyType;
+        DoorInteractor doorInter = other.GetComponent<DoorInteractor>();
+        if (doorInter)
+        {
+            OpenDoor();
+        }
     }
-
-    public void OpenDoor()
+    
+    protected virtual void OnTriggerExit(Collider other)
     {
-        door.SetActive(false);
+        DoorInteractor doorInter = other.GetComponent<DoorInteractor>();
+        if (doorInter)
+        {
+            CloseDoor();
+        }
+        
     }
+    
+    protected void OpenDoor()
+    {
+            door.SetActive(false);
+    }
+    protected void CloseDoor()
+    {
+            door.SetActive(true);
+    }
+    
+    // [SerializeField] private GameObject door;
+    // [SerializeField] private KeyCard.KeyType _keyType;
+    //
+    // public KeyCard.KeyType GetKeytype()
+    // {
+    //     return _keyType;
+    // }
+    //
+    // public void OpenDoor()
+    // {
+    //     door.SetActive(false);
+    // }
 }
