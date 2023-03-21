@@ -2,47 +2,293 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023e3b42-8444-4a4a-884f-cd3b51b4f53a" name="Changes" comment="Merge conflict fixed">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/DoorLightMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/DoorLightMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Lights.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Lights.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-1_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-2_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/Lightmap-2_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/ReflectionProbe-0.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door/DoorKeycardTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door/DoorKeycardTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door/Keycard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door/Keycard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/XRCustomControllerInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/XRCustomControllerInteractor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/XRTagLimitedSocketInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/XRTagLimitedSocketInteractor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AnimateHandOnInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats/GreenCar.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats/GreenCar.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats/Material.002.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats/Material.002.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats/RedCar.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats/RedCar.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats/YellowCar.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/BumperCarsMats/YellowCar.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/autodrom_sketchfab.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/source/autodrom_sketchfab.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_BaseCo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_BaseCo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_Metall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_Metall.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_Roughn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_low_Lunapark_BumperCars_4k_Roughn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_green_4K_BaseCol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_green_4K_BaseCol.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_BaseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_BaseColor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_Emissive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_Emissive.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_Metallic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_Metallic.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_Roughness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_red_4K_Roughness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_yellow_4K_BaseCo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/BumperCars/textures/autodrom_unwrap6_Autodrom_yellow_4K_BaseCo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/FerrisWheelMats.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/FerrisWheelMats/TT_checker_4096x4096_UV_GRID.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/FerrisWheelMats/TT_checker_4096x4096_UV_GRID.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/FerrisWheelMats/basement.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/FerrisWheelMats/basement.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/FerrisWheelMats/wheel.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/FerrisWheelMats/wheel.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/RussianWheel_low_sketchfab.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/source/RussianWheel_low_sketchfab.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_TT_checker_4096x4096_UV_G.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_TT_checker_4096x4096_UV_G.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_basement_BaseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_basement_BaseColor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_basement_Metallic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_basement_Metallic.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_basement_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_basement_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_basement_Roughness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_basement_Roughness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_wheel_BaseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_wheel_BaseColor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_wheel_Metallic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_wheel_Metallic.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_wheel_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_wheel_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_wheel_Roughness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/FerrisWheel/textures/RussianWheel_low_wheel_Roughness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/black_metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/black_metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/blue_strip.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/blue_strip.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/red_strip.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/red_strip.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/wood.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/wood.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/yellow_strip.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/StallMats/yellow_strip.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/Stall_model.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/source/Stall_model.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures/Wood_024_basecolor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures/Wood_024_basecolor.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures/bluestrip_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures/bluestrip_texture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures/redstrip_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures/redstrip_texture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures/yellowstrip_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Side-Stalls/textures/yellowstrip_texture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/SwansMats.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/SwansMats/Glossy Beach Wood.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/SwansMats/Glossy Beach Wood.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/SwansMats/Glossy Chocolate Wood.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/SwansMats/Glossy Chocolate Wood.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/SwansMats/Material.002.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/SwansMats/Material.002.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/labute_animace3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/source/labute_animace3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_BaseC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_BaseC.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_Emiss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_Emiss.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_Metal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_Metal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_Norma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_Norma.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_Rough.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/CarnivalModels/Swans/textures/labute101_TT_checker_512x512_UV_GRID_Rough.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/Left Hand Animator.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/Left Hand Animator.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/Right Hand Animator.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/Right Hand Animator.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/l_hand_default_anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/l_hand_default_anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/l_hand_fist_anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/l_hand_fist_anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/l_hand_pinch_anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/l_hand_pinch_anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/r_hand_default_anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/r_hand_default_anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/r_hand_fist_anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/r_hand_fist_anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/r_hand_pinch_anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Animations/r_hand_pinch_anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Materials/Hands_solid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Materials/Hands_solid.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Models/l_hand_skeletal_lowres.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Models/l_hand_skeletal_lowres.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Models/r_hand_skeletal_lowres.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Models/r_hand_skeletal_lowres.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Prefabs/Left Hand Model.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Prefabs/Left Hand Model.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Prefabs/Right Hand Model.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Prefabs/Right Hand Model.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/AffordanceThemes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/AffordanceThemes/InteractionColorAffordanceTheme.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/AffordanceThemes/InteractionColorAffordanceTheme.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Audio/Button Pop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Audio/Button Pop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/DemoScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/DemoScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/Primitive_Cylinder.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/Primitive_Cylinder.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/Primitive_Pyramid.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/Primitive_Pyramid.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/Primitive_Torus.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/Primitive_Torus.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/Primitive_Wedge.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/Primitive_Wedge.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/PushButton.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/PushButton.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/XRControllerLeft.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/XRControllerLeft.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/XRControllerRight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Models/XRControllerRight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Complete Teleport Area Set Up.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Complete Teleport Area Set Up.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Complete XR Origin Set Up.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Complete XR Origin Set Up.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables Sample.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables Sample.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interactable Instant Pyramid.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interactable Instant Pyramid.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interactable Kinematic Torus.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interactable Kinematic Torus.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interactable Simple Cube.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interactable Simple Cube.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interaction Affordance.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Interactables/Interaction Affordance.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport/Teleport Anchor.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport/Teleport Anchor.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport/Teleport Area.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/Teleport/Teleport Area.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI Sample.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI Sample.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_2D/MinMaxSlider.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_2D/MinMaxSlider.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_2D/TextButton.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_2D/TextButton.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_3D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_3D/Push Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/UI_3D/Push Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Direct Interactor.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Direct Interactor.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Gaze Interactor.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Gaze Interactor.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Poke Interactor.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Poke Interactor.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Ray Interactor.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Ray Interactor.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Teleport Interactor.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/Teleport Interactor.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/XR Controller Left.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/XR Controller Left.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/XR Controller Right.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/XR Controller Right.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/XR Origin Preconfigured.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Prefabs/XR Origin Pieces/XR Origin Preconfigured.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/ActionBasedControllerManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/ActionBasedControllerManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/DynamicMoveProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/DynamicMoveProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/GazeInputManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/GazeInputManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/PokeStation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/PokeStation/IncrementUIText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/PokeStation/IncrementUIText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/XRPokeFollowAffordance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/XRPokeFollowAffordance.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Continuous Move.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Continuous Move.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Continuous Turn.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Continuous Turn.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Gaze Controller.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Gaze Controller.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Input Actions.inputactions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Input Actions.inputactions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Left Controller.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Left Controller.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Left Grab Move.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Left Grab Move.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Right Controller.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Right Controller.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Right Grab Move.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Right Grab Move.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Snap Turn.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default Snap Turn.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default XR UI Input Module.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/XRI Default XR UI Input Module.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CarnivalScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CarnivalScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI/Settings/XRInteractionEditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/XRI/Settings/XRInteractionEditorSettings.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lighting/FirstLevelLighting.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lighting/FirstLevelLighting.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Input Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Input Actions.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door/DoorTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door/DoorTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyCardHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeyCardHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Week1/FallandRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Week1/FallandRestart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +297,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/BallSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Creature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door/DoorKeycardTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEventManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,9 +307,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XRTagLimitedSocketInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Menus/CinemachineMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.17/Runtime/Core/CameraState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Recording/TimelineRecording_Monobehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Recording/TimelineRecording_PlayableAsset.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.5/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,24 +323,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\arda.gultekin\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\arda.gultekin\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\arda.gultekin\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\arda.gultekin\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\arda.gultekin\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\arda.gultekin\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Build\My project.exe" />
@@ -164,6 +411,7 @@
       <workItem from="1678307334507" duration="2166000" />
       <workItem from="1678847891950" duration="508000" />
       <workItem from="1679040476080" duration="3098000" />
+      <workItem from="1679363692926" duration="13030000" />
     </task>
     <servers />
   </component>

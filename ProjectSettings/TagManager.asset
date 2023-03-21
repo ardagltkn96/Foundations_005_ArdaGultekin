@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - Box
   - KeyCard
+  - Can
   layers:
   - Default
   - TransparentFX
