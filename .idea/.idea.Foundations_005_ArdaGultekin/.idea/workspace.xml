@@ -2,72 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023e3b42-8444-4a4a-884f-cd3b51b4f53a" name="Changes" comment="Merge conflict fixed">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Hands.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/83785bb508c9411c83032f5a5fd0f475.blend.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/83785bb508c9411c83032f5a5fd0f475.blend.blend.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/83785bb508c9411c83032f5a5fd0f475.blend.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/83785bb508c9411c83032f5a5fd0f475.blend.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/DirectionMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/DirectionMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/PendulumBladeMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/PendulumBladeMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/WoodMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/WoodMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/pendulum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/pendulum.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/wood_texgen_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/wood_texgen_1.jpeg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/wood_texgen_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/wood_texgen_3.jpeg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Slerper.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Hand.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Hand.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/FOVMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/FOVMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/RobotMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/RobotMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball_VR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball_VR.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Box.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Box.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ExclamationParticleSystem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ExclamationParticleSystem.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Exploded_Robot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Exploded_Robot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hands.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hands/LeftHand.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hands/LeftHand.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hands/RightHand Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hands/RightHand Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KeyCardBlue.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KeyCardBlue.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KeyCardGreen.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KeyCardGreen.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KeycardDoor_prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KeycardDoor_prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lights.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lights.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PatrolRoute.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PatrolRoute.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Robot_Enemy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Robot_Enemy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SoundRingParticleSystem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SoundRingParticleSystem.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TDoor_Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TDoor_Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sci-fi-barrel 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sci-fi-barrel 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sci-fi-barrel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sci-fi-barrel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/XR/Hands/LeftHand.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/XR/Hands/LeftHand.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimateHandOnInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimateHandOnInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Creature.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Creature.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameEventManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameEventManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalTrigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyCardHolder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyCardHolder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundEmitter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundEmitter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/XRCustomControllerInteractor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/XRCustomControllerInteractor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/XRTagLimitedSocketInteractor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/XRTagLimitedSocketInteractor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +157,8 @@
       <workItem from="1679445490254" duration="13481000" />
       <workItem from="1679561002815" duration="9060000" />
       <workItem from="1679640186054" duration="2481000" />
+      <workItem from="1679659664167" duration="5879000" />
+      <workItem from="1679933597893" duration="4488000" />
     </task>
     <servers />
   </component>
