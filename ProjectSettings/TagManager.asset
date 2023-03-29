@@ -15,6 +15,7 @@ TagManager:
   - Can
   - Bullet
   - GunClip
+  - Torch
   layers:
   - Default
   - TransparentFX

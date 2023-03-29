@@ -2,30 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023e3b42-8444-4a4a-884f-cd3b51b4f53a" name="Changes" comment="Merge conflict fixed">
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/83785bb508c9411c83032f5a5fd0f475.blend.blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/83785bb508c9411c83032f5a5fd0f475.blend.blend.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/83785bb508c9411c83032f5a5fd0f475.blend.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/83785bb508c9411c83032f5a5fd0f475.blend.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/DirectionMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/DirectionMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/PendulumBladeMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/PendulumBladeMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/WoodMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/source/Pendulum-Blade-Mats/WoodMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/pendulum.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/pendulum.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/wood_texgen_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/wood_texgen_1.jpeg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/wood_texgen_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pendulum-Blade/textures/wood_texgen_3.jpeg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Slerper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/fireandsmoke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/fireandsmoke.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LightTorch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LightTorch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Flame_Mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Flame_Mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/source/Torch Mats.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/source/Torch Mats/Object001_mtl.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/source/Torch Mats/Object001_mtl.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/source/torch.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/source/torch.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/source/torch2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/source/torch2.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/textures/torch.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Torch/textures/torch.jpeg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/source/WaterPitMats.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/source/WaterPitMats/water.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/source/WaterPitMats/water.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/source/WaterPitMats/waterpit.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/source/WaterPitMats/waterpit.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/source/waterpot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/source/waterpot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/watercolor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/watercolor.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waternormal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waternormal.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitAo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitAo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitColor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitMetallic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitMetallic.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitNormal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitNormal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitRoughness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/WaterPit/textures/waterpitRoughness.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/XR/Hands/LeftHand.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/XR/Hands/LeftHand.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Fire &amp; Explosion Effects/Prefabs/FlameStream.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Fire &amp; Explosion Effects/Prefabs/FlameStream.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Fire &amp; Explosion Effects/Prefabs/WildFire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Fire &amp; Explosion Effects/Prefabs/WildFire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Water Effects/Materials/WaterDropSmall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Water Effects/Materials/WaterDropSmall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Water Effects/Materials/WaterFog.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Water Effects/Materials/WaterFog.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +60,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42d67a37b7f94895a4ce49b27ed7cac18ea00/18/1a6195ad/IXRSelectInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Extinguish.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LightTorch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Carnival/SocketCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Carnival/XRTagLimitedSocketInteractorForCarnival.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door/DoorKeycardTrigger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -159,6 +187,7 @@
       <workItem from="1679640186054" duration="2481000" />
       <workItem from="1679659664167" duration="5879000" />
       <workItem from="1679933597893" duration="4488000" />
+      <workItem from="1680108808236" duration="1349000" />
     </task>
     <servers />
   </component>
