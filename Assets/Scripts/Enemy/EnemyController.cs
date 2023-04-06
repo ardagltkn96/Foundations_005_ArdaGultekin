@@ -12,7 +12,8 @@ public class EnemyController : MonoBehaviour
         Patrol = 0,
         Investigate = 1,
         GrabFriend = 2,
-        InvestigateTogether = 3
+        InvestigateTogether = 3,
+        Stunned = 4
     }
     
     [SerializeField]private NavMeshAgent _agent;
@@ -21,6 +22,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private FieldOfView _fov;
     [SerializeField] private Transform _friendPoint;
     [SerializeField] private Transform[] points;
+    [SerializeField] private float _stunnedTime = 3f;
     
     public float _threshold = 0.5f;
     public EnemyState _state = EnemyState.Patrol;
@@ -30,6 +32,7 @@ public class EnemyController : MonoBehaviour
     public UnityEvent<Transform> onPlayerFound;
     public UnityEvent onInvestigate;
     public UnityEvent onReturnToPatrol;
+    public UnityEvent onStunned;
   
     private Transform _currentPoint;
     private bool _moving = false;
@@ -39,6 +42,7 @@ public class EnemyController : MonoBehaviour
     private Vector3 _investigationTogetherPoint;
     private float _waitTimer = 0f;
     private bool _playerFound = false;
+    private float _stunnedTimer = 0f;
     void Start()
     {
         _currentPoint = _patrolRoute.route[_routeIndex];
@@ -68,8 +72,25 @@ public class EnemyController : MonoBehaviour
             case EnemyState.InvestigateTogether:
                 UpdateInvestigateTogether();
                 break;
+            case EnemyState.Stunned:
+                _stunnedTimer += Time.deltaTime;
+                if (_stunnedTimer >= _stunnedTime)
+                {
+                    ReturnToPatrol();
+                    _animator.SetBool("Stunned", false);
+                }
+                break;
         }
 
+    }
+
+    public void SetStunned()
+    {
+        _animator.SetBool("Stunned", true);
+        _stunnedTimer = 0f;
+        _state = EnemyState.Stunned;
+        _agent.SetDestination(transform.position);
+        onStunned.Invoke();
     }
 
     private void GetFriendFromPatrolPoint()

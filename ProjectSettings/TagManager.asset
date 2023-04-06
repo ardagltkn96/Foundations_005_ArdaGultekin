@@ -16,6 +16,9 @@ TagManager:
   - Bullet
   - GunClip
   - Torch
+  - Ammo
+  - LeftHand
+  - RightHand
   layers:
   - Default
   - TransparentFX
