@@ -19,6 +19,7 @@ TagManager:
   - Ammo
   - LeftHand
   - RightHand
+  - Item
   layers:
   - Default
   - TransparentFX

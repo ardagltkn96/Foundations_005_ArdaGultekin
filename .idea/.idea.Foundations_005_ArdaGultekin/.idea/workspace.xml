@@ -2,121 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023e3b42-8444-4a4a-884f-cd3b51b4f53a" name="Changes" comment="Merge conflict fixed">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/ShockPistolFullChargeMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/ShockPistolFullChargeMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/ShockPistolMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/ShockPistolMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Weapon01-FlipedUV.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Weapon01-FlipedUV.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Weapon01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Weapon01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/Weapon_SubstanceExport_lambert1_AlbedoTransparency.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/Weapon_SubstanceExport_lambert1_AlbedoTransparency.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/Weapon_SubstanceExport_lambert1_MetallicSmoothness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/Weapon_SubstanceExport_lambert1_MetallicSmoothness.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/Weapon_SubstanceExport_lambert1_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/Weapon_SubstanceExport_lambert1_Normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/shockPistolScreen_1Charges.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/shockPistolScreen_1Charges.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/shockPistolScreen_2Charges.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/shockPistolScreen_2Charges.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/shockPistolScreen_3Charges.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/shockPistolScreen_3Charges.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/shockPistolScreen_Empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShockPistol/shockPistolScreen_Empty.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ActivateTeleportationRay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ActivateTeleportationRay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Robot.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Robot.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Korataki Regular/Korataki Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Korataki Regular/Korataki Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CourseMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CourseMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/FloorMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/FloorMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skybox-Gradient.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skybox-Gradient.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StarterAssets/InputSystem/StarterAssets.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StarterAssets/InputSystem/StarterAssets.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Robot_Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Robot_Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Objects/Ball_VR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Objects/Ball_VR.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/XR/XR Rig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/XR/XR Rig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Magic Effects/Materials/IceTrail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Magic Effects/Materials/IceTrail.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CarnivalScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CarnivalScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameEventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameEventManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hands/XRHandAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hands/XRHandAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/XR/MinimapRotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/XR/MinimapRotator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/FresnelShader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/FresnelShader.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/AT_Mine_LODGroup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/AT_Mine_LODGroup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials/at_mine_1k.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials/at_mine_1k.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials/at_mine_256px.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials/at_mine_256px.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials/at_mine_2k.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials/at_mine_2k.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials/at_mine_512px.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/Materials/at_mine_512px.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD0.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD0.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD0.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD0.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD1 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD1 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD2 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD2 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD3 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD3 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/at_mine_LOD3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k/at_mine__albedo_1k.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k/at_mine__albedo_1k.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k/at_mine__ao_1k.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k/at_mine__ao_1k.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k/at_mine__metallic_1k.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k/at_mine__metallic_1k.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k/at_mine__normal_1k.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/1k/at_mine__normal_1k.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px/at_mine__albedo_256px.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px/at_mine__albedo_256px.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px/at_mine__ao_256px.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px/at_mine__ao_256px.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px/at_mine__metallic_256px.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px/at_mine__metallic_256px.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px/at_mine__normal_256px.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/256px/at_mine__normal_256px.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k/at_mine__albedo_2k.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k/at_mine__albedo_2k.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k/at_mine__ao_2k.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k/at_mine__ao_2k.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k/at_mine__metallic_2k.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k/at_mine__metallic_2k.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k/at_mine__normal_2k.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/2k/at_mine__normal_2k.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px/at_mine__albedo_512px.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px/at_mine__albedo_512px.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px/at_mine__ao_512px.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px/at_mine__ao_512px.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px/at_mine__metallic_512px.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px/at_mine__metallic_512px.bmp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px/at_mine__normal_512px.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/weapons/models/at_mine/textures/512px/at_mine__normal_512px.bmp.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +15,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42d67a37b7f94895a4ce49b27ed7cac18ea00/18/1a6195ad/IXRSelectInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ActivateGrabRay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PullStaff.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Carnival/SocketCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Carnival/XRTagLimitedSocketInteractorForCarnival.cs" root0="FORCE_HIGHLIGHTING" />
@@ -136,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/ShockPistol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR/MinimapRotator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Stab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Staff.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Throwable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/XRGrabInteractableToAttach.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Menus/CinemachineMenu.cs" root0="SKIP_HIGHLIGHTING" />
@@ -265,7 +156,9 @@
       <workItem from="1680249711383" duration="11740000" />
       <workItem from="1680768228199" duration="1113000" />
       <workItem from="1680769860952" duration="4409000" />
-      <workItem from="1680781132317" duration="1102000" />
+      <workItem from="1680781132317" duration="6426000" />
+      <workItem from="1680888835393" duration="2842000" />
+      <workItem from="1680892201720" duration="6487000" />
     </task>
     <servers />
   </component>
@@ -289,5 +182,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Staff.cs</url>
+          <line>29</line>
+          <properties documentPath="C:\Users\arda.gultekin\E\WorkSpace\XRB\Foundations\Foundations_005_ArdaGultekin\Assets\Staff.cs" initialLine="13" containingFunctionPresentation="method 'FixedUpdate'">
+            <startOffsets>
+              <option value="628" />
+            </startOffsets>
+            <endOffsets>
+              <option value="750" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
