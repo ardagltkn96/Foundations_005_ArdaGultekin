@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023e3b42-8444-4a4a-884f-cd3b51b4f53a" name="Changes" comment="Merge conflict fixed">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Line.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Line.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gun/Grenade.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gun/Grenade.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gun/GrenadeBounce.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gun/GrenadeBounce.physicMaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Grenade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Grenade.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/GrenadeLauncher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/GrenadeLauncher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Projection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Projection.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Magic Effects/Materials/IceTrail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Magic Effects/Materials/IceTrail.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CarnivalScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CarnivalScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shared/Environment/Materials/LinesWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shared/Environment/Materials/LinesWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +34,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Carnival/SocketCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Carnival/XRTagLimitedSocketInteractorForCarnival.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door/DoorKeycardTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grenade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Handedness.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hands/XRHandAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Grab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Projection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/ShockPistol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR/MinimapRotator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Stab.cs" root0="FORCE_HIGHLIGHTING" />
@@ -159,6 +175,8 @@
       <workItem from="1680781132317" duration="6426000" />
       <workItem from="1680888835393" duration="2842000" />
       <workItem from="1680892201720" duration="6487000" />
+      <workItem from="1680976048771" duration="517000" />
+      <workItem from="1680976586253" duration="8797000" />
     </task>
     <servers />
   </component>
