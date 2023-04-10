@@ -8469,6 +8469,10 @@ MonoBehaviour:
   _bgmSource: {fileID: 2039285105}
   _caughtMusic: {fileID: 8300000, guid: 73c9a8786a8995c439e4419ed3c64fba, type: 3}
   _successMusic: {fileID: 8300000, guid: b3d6bf33bd80fe246858825e8ab92d4b, type: 3}
+  _pointLight: {fileID: 0}
+  _lightText: {fileID: 0}
+  _cubeMat: {fileID: 0}
+  _cubeRb: {fileID: 0}
 --- !u!4 &361736342
 Transform:
   m_ObjectHideFlags: 0
