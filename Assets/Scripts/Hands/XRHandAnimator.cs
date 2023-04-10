@@ -1,4 +1,5 @@
 using System;
+using UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -10,6 +11,8 @@ namespace Hands
         [SerializeField] private ActionBasedController _controller;
 
         [SerializeField] private Animator _animator;
+
+        [SerializeField] private MenuManager _menuManager;
         
         // Start is called before the first frame update
         private void Start()
@@ -33,7 +36,7 @@ namespace Hands
 
         private void Fist(InputAction.CallbackContext obj)
         {
-            _animator.SetBool("Fist", true);
+            if(!_menuManager.gameObject.activeSelf)_animator.SetBool("Fist", true);
         }
 
         private void FistReleased(InputAction.CallbackContext obj)

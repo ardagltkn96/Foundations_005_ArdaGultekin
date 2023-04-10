@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using StarterAssets;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
@@ -30,6 +32,14 @@ public class GameEventManager : MonoBehaviour
     [SerializeField] private AudioSource _bgmSource;
     [SerializeField] private AudioClip _caughtMusic;
     [SerializeField] private AudioClip _successMusic;
+
+    [Header("Week 8")] 
+    [SerializeField] private Light _pointLight;
+
+    [SerializeField] private TMP_Text _lightText;
+    [SerializeField] private Material _cubeMat;
+
+    [SerializeField] private Rigidbody _cubeRb;
     
     private PlayerInput _playerInput;
     private FirstPersonController _fpController;
@@ -40,10 +50,16 @@ public class GameEventManager : MonoBehaviour
     private Color _initialSkyBoxColor;
     private float _initialSkyBoxExposure;
     private float _initialSkyBoxAtmosphereThickness;
-    
+
+    private void Awake()
+    {
+        handedness = (Handed)PlayerPrefs.GetInt("handedness");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        _cubeMat.color = Color.green;
         EnemyController[] enemies = FindObjectsOfType<EnemyController>();
         foreach (EnemyController enemy in enemies)
         {
@@ -180,6 +196,11 @@ public class GameEventManager : MonoBehaviour
         
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -198,5 +219,69 @@ public class GameEventManager : MonoBehaviour
             }
         }
         _canvasGroup.alpha = _fadeLevel;
+    }
+
+    public void ToggleDominantHand()
+    {
+        if (handedness == Handed.Right)
+        {
+            handedness = Handed.Left;
+        }
+        else
+        {
+            {
+                handedness = Handed.Right;
+            }
+        }
+        PlayerPrefs.SetInt("handedness", (int)handedness);
+        PlayerPrefs.Save();
+        
+        RestartScene();
+    }
+
+    //Below are the functions for week 8 assignments.
+    public void ToggleLight()
+    {
+        if (_lightText.text == "On")
+        {
+            _pointLight.enabled = false;
+            _lightText.text = "Off";
+        }
+        else
+        {
+            _pointLight.enabled = true;
+            _lightText.text = "On";
+        }
+    }
+    
+    public void ChangeLightToRed()
+    {
+        _pointLight.color = Color.red;
+    }
+    public void ChangeLightToBlue()
+    {
+        _pointLight.color = Color.blue;
+    }
+    public void ChangeLightToGreen()
+    {
+        _pointLight.color = Color.green;
+    }
+
+    public void ChangeMat()
+    {
+        if (_cubeMat.color == Color.green)
+        {
+            _cubeMat.color = Color.red;
+        }
+        else
+        {
+            _cubeMat.color = Color.green;
+        }
+    }
+
+    public void ChangeGravity()
+    {
+        _cubeRb.isKinematic = false;
+        _cubeRb.useGravity = true;
     }
 }

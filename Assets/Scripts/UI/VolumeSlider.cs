@@ -1,0 +1,35 @@
+using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.UI;
+
+namespace UI
+{
+    public class VolumeSlider : MonoBehaviour
+    {
+        [SerializeField] private AudioMixer _mixer;
+
+        [SerializeField] private string _mixerGroup;
+        // Start is called before the first frame update
+        void Start()
+        {
+            var slider = GetComponent<Slider>();
+            slider.onValueChanged.AddListener((SliderValueChanged));
+
+            var val = PlayerPrefs.GetFloat(_mixerGroup, 0.75f);
+            slider.value = val;
+        }
+
+        private void SliderValueChanged(float newValue)
+        {
+            _mixer.SetFloat(_mixerGroup, Mathf.Log10(newValue) * 20);
+            PlayerPrefs.SetFloat("bgm", newValue);
+            PlayerPrefs.Save();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+        
+        }
+    }
+}

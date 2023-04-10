@@ -129,6 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50280f4b510cc704e993c66cb2d995dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _leftHandTransform: {fileID: 0}
+  _rightHandTransform: {fileID: 0}
   _rotationReference: {fileID: 4700667779882306724}
 --- !u!114 &4998125311360201431
 MonoBehaviour:
@@ -495,6 +497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 4998125310588335715}
   _animator: {fileID: 1719263057579841246}
+  _menuManager: {fileID: 0}
 --- !u!114 &4998125310588335713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -566,7 +569,7 @@ ConfigurableJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4998125311269532528}
-  m_ConnectedBody: {fileID: 6517099700786454568}
+  m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 1, z: 1}
@@ -908,6 +911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 4998125311306451548}
   _animator: {fileID: 6758296651020725333}
+  _menuManager: {fileID: 0}
 --- !u!114 &4998125311306451550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1504,7 +1508,7 @@ ConfigurableJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4998125312100279499}
-  m_ConnectedBody: {fileID: 1181955196228246179}
+  m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 1, z: 1}
