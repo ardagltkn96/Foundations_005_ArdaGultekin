@@ -21,6 +21,7 @@ TagManager:
   - RightHand
   - Item
   - Explodable
+  - Hand
   layers:
   - Default
   - TransparentFX

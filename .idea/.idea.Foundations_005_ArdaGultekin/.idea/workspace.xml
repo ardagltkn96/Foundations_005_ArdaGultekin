@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023e3b42-8444-4a4a-884f-cd3b51b4f53a" name="Changes" comment="Merge conflict fixed">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VR_Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Foundations_005_ArdaGultekin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Week8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Week8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +176,8 @@
       <workItem from="1681104978712" duration="815000" />
       <workItem from="1681150595948" duration="5180000" />
       <workItem from="1681164861313" duration="803000" />
+      <workItem from="1681190559366" duration="6568000" />
+      <workItem from="1681249391494" duration="272000" />
     </task>
     <servers />
   </component>
