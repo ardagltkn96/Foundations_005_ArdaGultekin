@@ -7,8 +7,13 @@ public class SocketCheck : MonoBehaviour
 {
     private XRSocketInteractor _socket;
     [SerializeField] private FireBullet _fireBullet;
+    [SerializeField] private GameObject _bullet;
 
-    public bool clipExist;
+    public bool clipExist = false;
+    public bool canFireAll = false;
+
+    public bool _fireRateExist = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,9 +38,27 @@ public class SocketCheck : MonoBehaviour
             {
                 clipExist = false;
             }
+
+            if (objName.transform.CompareTag("FireRate"))
+            {
+                _fireBullet._fireSpeed = 30f;
+            }
+
+            if (objName.transform.CompareTag("Impact"))
+            {
+                _fireBullet._bullet = _bullet;
+            }
+            if (objName.transform.CompareTag("FireAll"))
+            {
+                canFireAll = true;
+            }
+            else
+            {
+                canFireAll = false;
+            }
         }
-        
-       
+
+
     }
 
     private void Update()

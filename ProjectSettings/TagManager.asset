@@ -22,6 +22,9 @@ TagManager:
   - Item
   - Explodable
   - Hand
+  - FireRate
+  - Impact
+  - FireAll
   layers:
   - Default
   - TransparentFX
@@ -41,7 +44,7 @@ TagManager:
   - Gun
   - Teleporter
   - Explodable
-  - 
+  - GunBuff
   - 
   - 
   - 
